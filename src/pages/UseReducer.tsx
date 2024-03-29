@@ -42,6 +42,26 @@ export default function UseReducer() {
         </button>
         <button onClick={() => dispatch({ type: 'decrement' })}>Decrement</button>
       </div>
+      <ReducerCloned />
     </Default>
+  )
+}
+
+function ReducerCloned() {
+  const { count: initCount } = useCount()
+  const [state, dispatch] = useReducer(reducer, {
+    count: initCount
+  })
+  return (
+
+    <div>
+      <h1>Cloned</h1>
+      <div>Count: {state.count}</div>
+      <button className='mb-2' onClick={() => dispatch({ type: 'increment' })}>
+        Increment
+      </button>
+      <button onClick={() => dispatch({ type: 'decrement' })}>Decrement</button>
+    </div>
+
   )
 }

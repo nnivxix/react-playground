@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import Index from '../pages/Index';
 import UseReducer from '../pages/UseReducer';
+import UseReducerCloned from '../pages/UseReducerCloned';
 
 type DefaultProps = { children: React.ReactNode }
 // eslint-disable-next-line react-refresh/only-export-components
@@ -15,7 +16,12 @@ export const navs = [
     label: 'useReducer',
     path: '/use-reducer',
     element: <UseReducer />
-  }
+  },
+  {
+    label: 'useReducer Cloned',
+    path: '/use-reducer-cloned',
+    element: <UseReducerCloned />
+  },
 ];
 
 function Default({ children }: DefaultProps) {

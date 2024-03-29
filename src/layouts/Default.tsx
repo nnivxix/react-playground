@@ -1,8 +1,8 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import Index from '../pages/Index';
 import UseReducer from '../pages/UseReducer';
-import UseReducerCloned from '../pages/UseReducerCloned';
+import UseContext from '../pages/UseContext';
 
 type DefaultProps = { children: React.ReactNode }
 // eslint-disable-next-line react-refresh/only-export-components
@@ -18,9 +18,9 @@ export const navs = [
     element: <UseReducer />
   },
   {
-    label: 'useReducer Cloned',
-    path: '/use-reducer-cloned',
-    element: <UseReducerCloned />
+    label: 'useContext',
+    path: '/use-context',
+    element: <UseContext />
   },
 ];
 
@@ -29,11 +29,14 @@ function Default({ children }: DefaultProps) {
   return (
     <div className='layout'>
       <nav>
-
         {navs.map(nav => (
-          <Link to={nav.path} key={nav.path}>
+          <NavLink to={nav.path} key={nav.path} className={({ isActive }: {
+            isActive: boolean;
+          }) =>
+            isActive ? "active" : ""
+          }>
             {nav.label}
-          </Link>
+          </NavLink>
         ))}
       </nav>
       <main>

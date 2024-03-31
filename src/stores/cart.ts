@@ -19,7 +19,7 @@ const useCartStore = create<CartStore>((set, get) => ({
 	products: [],
 	carts: [],
 	getProducts: async () => {
-		const response = await fetch("http://localhost:3000/products");
+		const response = await fetch("http://localhost:8000/products");
 		set({ products: await response.json() });
 	},
 	addToCart: (product: Item) => set({ carts: [...get().carts, product] }),

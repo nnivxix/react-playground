@@ -1,0 +1,68 @@
+{
+  "products": [
+    {
+      "id": "PRD-G2GMJ-22230",
+      "name": "Botol Minum - Hitam",
+      "image": "http://localhost:8000/img/products/botol_minum.jpg",
+      "price": 28000,
+      "category": "Daily",
+      "description": "Botol air multi guna dapat dibuat dari polietilena berdensitas tinggi, polietilena berdensitas rendah, kopoliester, atau polipropilena. Semuanya menawarkan keunggulan tahan lama, ringan, aman untuk mesin pencuci piring, dan bebas BPA. Perbedaan utama antara masing-masing jenis botol air adalah fleksibilitas bahannya. Kopoliester dan polipropilen menawarkan kekakuan terbesar; HDPE mempertahankan beberapa fleksibilitas; LDPE (paling sering dikaitkan dengan botol peras yang dapat dilipat) sangat fleksibel."
+    },
+    {
+      "id": "PRD-H5NI4-222350",
+      "name": "Charger HP - up to 20 V",
+      "image": "http://localhost:8000/img/products/charger_robot.jpg",
+      "price": 49800,
+      "category": "Gadget",
+      "description": "100% Produk ORIGINAL Robot GARANSI VIVAN INDONESIA Robot RT K4 Input : 100-240V, 50-60HZ Output : 5V, 1A Material : Housing PC+ABS shrapnel stainless steel nickel plated Operating temperature 0-40* Working Humidity 35-85% RH, 100% Produk ORIGINAL Robot GARANSI VIVAN INDONESIA Robot RT K4 Input : 100-240V, 50-60HZ Output : 5V, 1A Material : Housing PC+ABS shrapnel stainless steel nickel plated Operating temperature 0-40* Working Humidity 35-85% RH,"
+    },
+    {
+      "id": "PRD-BD1AI-222325",
+      "name": "Jam Tangan Unisex",
+      "image": "http://localhost:8000/img/products/jam_tangan.jpg",
+      "price": 56000,
+      "category": "Daily",
+      "description": "Jam tangan wanita berseries LQ-139AMV dari Casio, sangat cocok digunakan baik pada acara semi formal maupun formal. Pasalnya, Casio berseries LQ-139AMV terbuat dari material berbahan stainless steel dan rubber strap. Talinya yang dibuat dari bahan rubber, membuat jam tangan Casio ini memiliki ketahanan yang baik terhadap air. Jadi, Anda tak perlu takut bila jam tangan terkena percikan air karena tidak akan menimbulkan bau pada strap-nya. Sementara, pada bagian lingkar jamnya dibuat dari bahan material stainless steel yang dikenal dengan kemampuannya tahan lama dan awet. Oleh karena itu, perpaduan antara kedua material tersebut akan semakin menambah daya tarik jam tangan Casio."
+    },
+    {
+      "id": "PRD-H2CL4-222350",
+      "name": "Monitor IPS",
+      "image": "http://localhost:8000/img/products/monitor_ips.jpg",
+      "price": 34000000,
+      "category": "Gadget",
+      "description": "Monitor Gaming BenQ ZOWIE XL2411K adalah Monitor terbaru hadir dengan fitur dan kelebihan yang berguna untuk para pro gamers: Full HD 24 inch 144Hz refresh rate 1 ms, Response time, TN Panel, DyAc Technology Kejernihan untuk setiap objek yang bergerak, Black eQualizer meningkatkan visibilitas area gelap tanpa overexposing area terang, Color Vibrance untuk menyesuaikan pengaturan warna dan tone untuk membedakan target musuh dalam game, XL Setting to Share:Bagikan pengaturan Anda sendiri dengan rekan satu tim, teman, atau penggemar Anda. Simpan profil video dengan cepat dan bagikan dengan mudah melalui interface pengguna yang sederhana, Pengaturan ketinggian:Pivot, Swivel, Tilt, Pengaturan ketinggian hingga 155 mm, Port: HDMI 1.4 x2 / HDMI 2.0 / DP 1.2 / headphone jack, Eye care: Flicker free (DyAc off), Low blue light, Garansi resmi 3 tahun"
+    },
+    {
+      "id": "PRD-MCEJD-222350",
+      "name": "Sepatu Olahraga",
+      "image": "http://localhost:8000/img/products/sepatu_or.jpg",
+      "price": 120000,
+      "category": "Daily",
+      "description": "Mainland Sepatu Olahraga Pria [KSP101] adalah running shoes berbahan berkuaitas yang didesain sporty dengan detail eyelts, neat stitching, dan outsole. Sepatu ini cocok digunakan untuk melakukan olahraga ringan seperti jogging dan trekking. COCOK Digunakan Untuk: Nongkrong, Kuliah, Kerja, Traveling, Gym, Jogging. Bahan Upper : Mesh + Suede [ Sangat Adem & Keren ], Bahan Insole : Eva Sponge [ Empuk tapi kuat ], Bahan Outsole : TPR / Thermoplastic Rubber [ Ringan & tidak licin ] Berat Sepatu : Size 39 - Lebih Kurang 685 Gr, Berat Sepatu : Size 44 - Lebih Kurang 800 Gr, Berat Kotak : Lebih Kurang 100 GR"
+    },
+    {
+      "id": "PRD-D1JBK-222350",
+      "name": "Kahf - Skincare Pria",
+      "image": "http://localhost:8000/img/products/skincare_pria.jpg",
+      "price": 130000,
+      "category": "Daily",
+      "description": "Kahf Skin Energizing and Brightening Face Wash merupakan sabun pembersih wajah dengan kombinasi HydroBalanceTM dan Pure Cleanse yang dapat menjadikan kulit wajah bersih dan lembap secara menyeluruh hingga ke pori-pori. Diperkaya dengan ekstrak Moroccan Mint dan Mediterranean Grapefruit menjadikan kulit terasa lebih segar dan tampak lebih cerah dengan formula yang ringan sehingga cocok untuk semua jenis kulit. Manfaat: Membuat kulit terasa lembab dan halus Membantu mencerahkan kulit Membersihkan kulit dari kotoran hingga ke pori-pori Membuat wajah bebas minyak hingga 12 jam"
+    },
+    {
+      "id": "PRD-CNFDJ-22230",
+      "name": "STB TV Digital",
+      "image": "http://localhost:8000/img/products/stb.jpg",
+      "price": 129000,
+      "category": "Gadget",
+      "description": "Apa itu Siaran Digital, Teknologi terbaru di dunia TV yang memungkinkan kita untuk bisa mendapatkan siaran TV dengan gambar yang jauh lebih baik dan TIDAK MENGENAL istilah bayangan dan semut pada gambar. (DIJAMIN BENING) Dengan alat penerima TV DIGITAL generasi terbaru ini, siaran TV anda DIJAMIN BEBAS SEMUT, BEBAS BAYANG dengan kualitas yang sangat jernih dengan dukungan resolusi HD, Berfungsi untuk menangkap siaran tv digital. dapat digunakan pada tv jenis tabung, lcd, led dan semua jenis merk"
+    },
+    {
+      "id": "PRD-GMMJ1-22230",
+      "name": "Tas HP untuk Wanita",
+      "image": "http://localhost:8000/img/products/tas_hp_wanita.jpg",
+      "price": 23000,
+      "category": "Daily",
+      "description": "Brand : BAELLERRY ORIGINAL, ASAL PRODUK : 100% Import, Size : 19.5 x 11 x 5 cm, Bahan : Kulit PU berkualitas, multifungsi, bisa dijadikan tas dan dompet, tali bisa diatur panjang pendeknya, 1 kantong utama tanpa sleting, 1 kantong utama dengan sleting + 1 kantong dalam dengan sleting, 2 slot tempat uang kertas, 6 slot tempat kartu, Panjang Tali 66cm"
+    }
+  ]
+}

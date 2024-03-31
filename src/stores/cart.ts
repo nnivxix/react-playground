@@ -7,6 +7,7 @@ export interface Item {
 	price: number;
 	category: string;
 	description: string;
+	quantity?: number;
 }
 interface CartStore {
 	products: Item[];

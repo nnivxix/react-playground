@@ -1,9 +1,24 @@
 import Default from '../layouts/Default'
-import useCartStore from '../stores/cart'
+import useCartStore, { Item } from '../stores/cart'
 
 
 export default function ZustandProduct() {
   const cartStore = useCartStore();
+
+  const calculatedCarts = () => {
+    const productMap = new Map<string, Item>();
+
+    cartStore.carts?.forEach((p) => {
+      const existingProduct = productMap.get(p.id);
+      if (existingProduct) {
+        existingProduct.quantity = (existingProduct.quantity || 1) + 1;
+      } else {
+        productMap.set(p.id, { ...p });
+      }
+    });
+
+    return Array.from(productMap.values());
+  }
 
 
   return (
@@ -20,10 +35,11 @@ export default function ZustandProduct() {
 
       <hr />
       <div className='border'>
+
         <p>Carts</p>
         <ol>
-          {cartStore.carts?.map(product => (
-            <li key={product.id}>{product.name}</li>
+          {calculatedCarts()?.map(product => (
+            <li key={product.id}>{product.name} ({product.quantity ?? 1})</li>
           ))}
         </ol>
       </div>

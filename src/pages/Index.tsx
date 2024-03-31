@@ -3,10 +3,14 @@ import reactLogo from '../assets/react.svg'
 import viteLogo from '/vite.svg'
 import '../App.css'
 import Default from '../layouts/Default'
+import useCounter from '../stores/counter'
+import useCartStore from '../stores/cart'
+
 
 function Index() {
   const [count, setCount] = useState(0)
-
+  const counter = useCounter()
+  const { carts } = useCartStore()
   return (
     <Default>
       <div>
@@ -30,6 +34,10 @@ function Index() {
         <p className="read-the-docs">
           Click on the Vite and React logos to learn more
         </p>
+      </div>
+      <div>
+        <h1>Zustand counter {counter.count}</h1>
+        <h1>Zustand carts {carts.length}</h1>
       </div>
     </Default>
   )
